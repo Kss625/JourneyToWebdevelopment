@@ -4,6 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My College Time Table</title>
+    <style>
+        table,td{
+            border-collapse: collapse;
+            border-width: 2px;
+            border-style: solid;
+            border-color:rgb(236, 5, 228);
+        }
+        #day{
+            background-color: aqua;
+        }
+        #time{
+            background-color:orange;
+        }
+        #lab{
+            background-color: greenyellow;
+        }
+        #others{
+            background-color: lightgreen;
+        }
+        #lunch{
+            background-color: yellow;
+        }
+        #em{
+            background-color:rgb(68, 0, 255);
+        }
+        #ep{
+            background-color: blueviolet;
+
+        }
+        #python{
+            background-color: gold;
+
+        }
+        #am{
+            background-color: red;
+        }
+        #pcs{
+            background-color: rgb(233, 144, 238);
+        }
+        #ec{
+            background-color: rgb(5, 232, 244);
+        }
+        #boet{
+            background-color: lightcoral;
+        }
+        tr:hover {
+            background-color: coral;
+        }
+
+    </style>
 </head>
 <body>
     <header>
@@ -16,11 +66,83 @@
                 <br>
                 Name:-SUSHANT KUMAR <br>
                 CLASS:- B.TECH(ME) 1st Year <br>
-                Total Subjects:-7
-
+                Total Subjects:-7 <br>
+                Session:- 2023-2027
                 </p>
             </div>
+            <div>
+                <table align="center">
+                    <caption>GB PANT OKHLA I CAMPUS</caption>
+                    <caption>B.TECH(MECHANICAL ENGINEERING)</caption>
+                    <caption>Time Table,First Semester,2023-2024</caption>
+                        <thead >
+                        <tr id="time">
+                            <th id="day">Day</th>
+                            <th>9:00-10:00</th>
+                            <th>10:00-11:00</th>
+                            <th>11:00-12:00</th>
+                            <th>12:00-1:00</th>
+                            <th>1:00-1:30</th>
+                            <th>1:30-2:30</th>
+                            <th>2:30-3:30</th>
+                            <th>3:30-4:30</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td id="day">Monday</td>
+                            <td colspan="2" id="pcs">Professional Communication Skill</td>
+                            <td colspan="2" id="lab">Engineering Mechanics(LAB)</td>
+                            <td rowspan="5" id="lunch">LUNCH</td>
+                            <td colspan="2" id="others">LIBRARY</td>
+                            <td id="em">Engineering Mechanics</td>
+                        </tr>
+                        <tr>
+                            <td id="day">Tuesday</td>
+                            <td id="python">Python</td>
+                            <td id="ep">Engineering Physics</td>
+                            <td colspan="2" id="lab">Engineering Physics(LAB)</td>
+                            <td id="em">Engineering Mechancis</td>
+                            <td colspan="2" id="am">Applied Mathematics</td>
+                        </tr>
+                        <tr>
+                            <td id="day">Wednesday</td>
+                            <td id="pcs">Professional Communication Skill</td>
+                            <td id="boet">Basics Of Electrical Technology</td>
+                            <td colspan="2" id="lab">Engineering Chemistry(LAB)</td>
+                            <td id="boet">Basics Of Electrical Technology</td>
+                            <td id="ec">Engineering Chemistry</td>
+                            <td colspan="2" id="others">Sports</td>
+                        </tr>
+                        <tr>
+                            <td id="day">Thursday</td>
+                            <td id="em">Engineering Mechanics</td>
+                            <td id="boet">Basics Of Electrical Technology</td>
+                            <td id="ec">Engineering Chemistry</td>
+                            <td id="ep">Engineering Physics</td>
+                            <td id="am">Applied Mathematics</td>
+                            <td colspan="2" id="lab">Python(LAB)</td>
+                        </tr>
+                        <tr>
+                            <td id="day">Friday</td>
+                            <td id="others">Sports</td>
+                            <td id="am">Applied Mathematics</td>
+                            <td colspan="2" id="lab">Basics Of Electrical Technology(LAB)</td>
+                            <td colspan="2" id="python">Python</td>
+                            <td id="others">Sports</td>
+                        </tr>
+                        <tr>
+                            <td id="day">Saturday-Sunday</td>
+                            <td colspan="8" style="text-align: center;background-color: darkgreen;" >Holiday!!!</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                This is Done Now...
+            </div>
         </section>
+
     </main>
 </body>
 </html>
